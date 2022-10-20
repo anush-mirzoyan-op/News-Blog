@@ -144,7 +144,7 @@ a {
 .get-sbrs-form {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
 }
 
 .get-sbrs-form-inp{
@@ -154,4 +154,10 @@ a {
 
 .get-sbrs-form input{
     border-bottom: 1px solid black;
+}
+
+.footer-right-part{
+  display: grid;
+  grid-template-rows: auto auto auto ;
+  row-gap: 10;
 }
