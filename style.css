@@ -138,10 +138,20 @@ a {
 #get-subscribers-bttn {
   border: 0.5px solid black;
   background: transparent;
-  height: max-content;
+  height: 100%;
 }
 
 .get-sbrs-form {
   display: flex;
-  border-bottom: 1px solid black;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.get-sbrs-form-inp{
+    display: flex;
+    flex-direction: column;
+}
+
+.get-sbrs-form input{
+    border-bottom: 1px solid black;
 }
