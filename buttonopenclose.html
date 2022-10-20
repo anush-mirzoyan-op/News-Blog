@@ -1,0 +1,124 @@
+
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">Urban</a>
+      <a href="#">Climate Change</a>
+      <a href="#">Opinion</a>
+      <a href="#">Our Vision</a>
+      <a href="#">All Articles</a>
+      
+    </div>
+  </div>
+  
+  <span style="font-size:14px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
+
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffb67c;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  <!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <div class="mobile-design">
+    <div class="orange-part">
+      <br />
+    </div>
+    <div class="nav-bar">
+      
+      <form class="search">
+        <input type="text" placeholder="Search.." name="search" />
+        <button type="submit"></button>
+        <img height="14px" width="14px" src="https://img.icons8.com/ios/344/search--v1.png" alt="" />
+        </button>
+      </form>
+
+      <span style="font-size:14px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+    </div>
+    <div class="nav-bar-h">
+      <h3>The Global Morning</h1>
+      <h5>Climate News</h5>
+    </div>
+  </div>
+</body>
+
+</html>

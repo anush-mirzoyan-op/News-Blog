@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #faf5f5;
+}
+
+.nav-bar {
+  width: 100vw;
+  background-color: #ffb67c;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  padding: 5px;
+}
+
+.search-button {
+  background: transparent;
+}
+
+.serach-form {
+  border-bottom: 1px solid black;
+  width: fit-content;
+  height: fit-content;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+}
+
+.main {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 40px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.a-and-h5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 50px;
+  width: 80vw;
+  margin: auto;
+}
+
+.user-info {
+  display: flex;
+}
+
+.paragraph-name {
+  margin: 15px;
+  border-bottom: 1px solid black;
+  width: 50%;
+}
+
+.main-content-user {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-user * {
+  margin: 0 0 1px 0;
+}
+
+.main-content * {
+  padding: 1px;
+}
+
+.main-content {
+  background-color: white;
+}
+
+.main-dives {
+  width: 80vw;
+  margin: auto;
+}
+
+.climate-change-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 50px;
+}
+
+.urban-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(15rem, 1fr));
+  column-gap: 50px;
+  margin: auto;
+}
+
+.urban-grid > img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+}
+
+.footer-div {
+  background-color: #ffb67c;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+}
+
+#get-subscribers-bttn {
+  border: 0.5px solid black;
+  background: transparent;
+  height: max-content;
+}
+
+.get-sbrs-form {
+  display: flex;
+  border-bottom: 1px solid black;
+}
