@@ -74,9 +74,20 @@ a {
 }
 
 .paragraph-name {
-  margin: 15px;
-  border-bottom: 1px solid black;
-  width: 50%;
+  font-family: 'Times New Roman', Times, serif;
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin: 0.5rem 0;
+}
+
+.content-style{
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  font-size: 0.5rem;
+  font-weight: lighter;
+  margin: 0.5rem 0;
 }
 
 .main-content-user {
@@ -145,15 +156,21 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  height: 100%;
 }
 
 .get-sbrs-form-inp{
     display: flex;
     flex-direction: column;
+    height: 50%;
 }
 
 .get-sbrs-form input{
     border-bottom: 1px solid black;
+}
+
+#get-subscribers-bttn{
+height: 100%;  
 }
 
 .footer-right-part{
