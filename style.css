@@ -59,12 +59,14 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  height: auto;
 }
 
 .main-content {
   display: grid;
   grid-template-columns: auto auto auto;
-  column-gap: 50px;
+  column-gap: 3.5rem;
   width: 80vw;
   margin: auto;
 }
@@ -74,16 +76,19 @@ a {
 }
 
 .paragraph-name {
-  font-family: 'Times New Roman', Times, serif;
-  /* border-bottom: 1px solid black; */
+  font-family: "Times New Roman", Times, serif;
   width: 100%;
   font-size: 1.5rem;
   font-weight: lighter;
   margin: 0.5rem 0;
 }
 
-.content-style{
-  font-family: 'Times New Roman', Times, serif;
+.underlined-title {
+  border-bottom: 1px solid black;
+}
+
+.content-style {
+  font-family: "Times New Roman", Times, serif;
   width: 100%;
   font-size: 0.5rem;
   font-weight: lighter;
@@ -115,14 +120,13 @@ a {
 .climate-change-grid {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  column-gap: 50px;
+  column-gap: 3rem;
 }
 
 .urban-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(15rem, 1fr));
-  column-gap: 50px;
-  margin: auto;
+  column-gap: 3.5rem;
 }
 
 .urban-grid > img {
@@ -159,22 +163,39 @@ a {
   height: 100%;
 }
 
-.get-sbrs-form-inp{
-    display: flex;
-    flex-direction: column;
-    height: 50%;
+.get-sbrs-form-inp {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
 }
 
-.get-sbrs-form input{
-    border-bottom: 1px solid black;
+.get-sbrs-form input {
+  border-bottom: 1px solid black;
 }
 
-#get-subscribers-bttn{
-height: 100%;  
+#get-subscribers-bttn {
+  height: 100%;
 }
 
-.footer-right-part{
+.footer-right-part {
   display: grid;
-  grid-template-rows: auto auto auto ;
-  row-gap: 10;
+  grid-template-rows: auto auto auto;
+  row-gap: 2.5rem;
+}
+
+.title-cards {
+  width: 60%;
+  min-width: 14rem;
+  max-width: min-content;
+}
+
+div.title-cards > * {
+width: 100%;
+
+}
+
+.comment{
+  color: black;
+  font-size: 0.8rem;
+  font-weight: lighter;
 }
