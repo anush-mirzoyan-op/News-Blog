@@ -21,7 +21,7 @@ li {
   padding: 5px;
 }
 
-.search-button {
+#search-button {
   background: none;
   color: inherit;
   border: none;
