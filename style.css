@@ -26,9 +26,13 @@ li {
 }
 
 .serach-form {
-  border-bottom: 1px solid black;
+  border-bottom: 0.05rem solid black;
   width: fit-content;
   height: fit-content;
+}
+
+.serach-form :hover{
+  border-bottom: 0.09rem solid black;
 }
 
 input {
@@ -85,6 +89,8 @@ a {
 
 .underlined-title {
   border-bottom: 1px solid black;
+  width: 60%;
+  min-width: max-content;
 }
 
 .content-style {
