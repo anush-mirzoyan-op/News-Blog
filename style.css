@@ -32,13 +32,18 @@ li {
   margin-left: -2rem;
 }
 
-.serach-form {
+.search-form {
   border-bottom: 0.05rem solid black;
   width: fit-content;
   height: fit-content;
-}
 
-.serach-form :hover {
+  
+}
+/* :hover{
+  border-bottom: 0.09rem solid black;
+  } */
+
+.search-form :hover  {
   border-bottom: 0.09rem solid black;
 }
 
@@ -69,7 +74,7 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
-} 
+}
 
 .main-content {
   display: grid;
@@ -139,7 +144,7 @@ a {
   column-gap: 3.5rem;
 }
 
-.urban-grid>img {
+.urban-grid > img {
   object-fit: cover;
   width: 100%;
 }
@@ -147,7 +152,23 @@ a {
 .video-grid {
   display: grid;
   grid-template-columns: auto auto auto;
-  column-gap: 10px;
+  column-gap: 2rem;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .footer-div {
@@ -157,9 +178,9 @@ a {
 .footer {
   display: grid;
   grid-template-columns: auto auto auto;
-  column-gap: 10px;
+  column-gap: 2.5rem;
   margin-top: 5rem;
-  margin-bottom: 5rem
+  margin-bottom: 5rem;
 }
 
 #get-subscribers-bttn {
@@ -197,13 +218,24 @@ a {
   row-gap: 2.5rem;
 }
 
+.footer-left-part {
+  margin: 0 10rem;
+  max-width: 10rem;
+}
+
+.footer-text {
+  font-weight: lighter;
+  line-height: 3rem;
+  font-size: 10rem;
+}
+
 .title-cards {
   width: 60%;
   min-width: 11rem;
   max-width: min-content;
 }
 
-div.title-cards>* {
+div.title-cards > * {
   width: 100%;
 }
 
