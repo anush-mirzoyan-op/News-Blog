@@ -207,8 +207,9 @@ a {
 
 .get-sbrs-form-inp {
   display: flex;
-  flex-direction: column;
-  height: 50%;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
 }
 
 .get-sbrs-form input {
@@ -233,8 +234,8 @@ a {
 
 .footer-text {
   font-weight: lighter;
-  line-height: 3rem;
-  font-size: 10rem;
+  line-height: 4rem;
+  font-size: 15rem;
 }
 
 .title-cards {
