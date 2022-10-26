@@ -184,11 +184,14 @@ a {
 }
 
 .footer {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  column-gap: 2.5rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  ;
+  width: 80vw;
+  margin: auto;
+  /* grid-template-columns: auto auto auto;
+  column-gap: 2.5rem; */
+  
 }
 
 #get-subscribers-bttn {
@@ -224,18 +227,20 @@ height: 100%;
 .footer-right-part {
   display: grid;
   grid-template-rows: auto auto auto;
-  row-gap: 2.5rem;
+  row-gap: 3.5rem;
+  margin: 7%;
+}
 }
 
 .footer-left-part {
-  margin: 0 10rem;
-  max-width: 10rem;
+  max-width: 29rem;
+  padding: 5rem 25rem 5rem 0;
 }
 
 .footer-text {
-  font-weight: lighter;
-  line-height: 4rem;
-  font-size: 15rem;
+  line-height: 1.4em;
+font-size: 40px;
+  
 }
 
 .title-cards {
