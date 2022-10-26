@@ -258,3 +258,24 @@ div.title-cards > * {
   margin: 1.5rem 0;
   font-weight: 500;
 }
+
+.video-grid > div {
+  overflow: hidden;
+}
+
+.video-grid>div>video {
+  width: 100%;
+}
+
+.grid-equal-columns {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  column-gap: 2rem;
+}
+.grid-equal-columns > div {
+  overflow: hidden;
+}
+.grid-equal-columns>div>video, .grid-equal-columns>div>img {
+  width: 100%;
+}
