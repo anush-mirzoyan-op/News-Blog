@@ -38,11 +38,12 @@ li {
   width: fit-content;
   height: 3rem;
 }
+
 /* :hover{
   border-bottom: 0.09rem solid black;
   } */
 
-.search-form :hover  {
+.search-form :hover {
   border-bottom: 0.09rem solid black;
 }
 
@@ -143,7 +144,7 @@ a {
   column-gap: 3.5rem;
 }
 
-.urban-grid > img {
+.urban-grid>img {
   object-fit: cover;
   width: 100%;
 }
@@ -154,7 +155,7 @@ a {
   column-gap: 2rem;
 }
 
-.video-grid > div {
+.video-grid>div {
   overflow: hidden;
 }
 
@@ -185,12 +186,9 @@ a {
 .footer {
   display: flex;
   justify-content: space-between;
-  ;
   width: 80vw;
   margin: auto;
-  /* grid-template-columns: auto auto auto;
-  column-gap: 2.5rem; */
-  
+  height: fit-content;
 }
 
 #get-subscribers-bttn {
@@ -209,9 +207,9 @@ a {
 
 .get-sbrs-form-inp {
   display: flex;
-flex-direction: column;
-justify-content: space-between;
-height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .get-sbrs-form input {
@@ -228,6 +226,7 @@ height: 100%;
   grid-template-rows: auto auto auto;
   row-gap: 3.5rem;
   margin: 7%;
+  max-height: 10rem;
 }
 
 
@@ -238,8 +237,8 @@ height: 100%;
 
 .footer-text {
   line-height: 1.4em;
-font-size: 40px;
-  
+  font-size: 40px;
+
 }
 
 .title-cards {
@@ -248,7 +247,7 @@ font-size: 40px;
   max-width: min-content;
 }
 
-div.title-cards > * {
+div.title-cards>* {
   width: 100%;
 }
 
@@ -264,7 +263,7 @@ div.title-cards > * {
   font-weight: 500;
 }
 
-.video-grid > div {
+.video-grid>div {
   overflow: hidden;
 }
 
@@ -278,31 +277,34 @@ div.title-cards > * {
   grid-auto-flow: column;
   column-gap: 2rem;
 }
-.grid-equal-columns > div {
+
+.grid-equal-columns>div {
   overflow: hidden;
 }
-.grid-equal-columns>div>video, .grid-equal-columns>div>img {
+
+.grid-equal-columns>div>video,
+.grid-equal-columns>div>img {
   width: 100%;
 }
 
-.video-bttn{
+.video-bttn {
   display: none;
 }
 
-.video-container{
+.video-container {
   position: relative;
 }
 
-.video-container:hover .video-bttn{
+.video-container:hover .video-bttn {
   display: block;
   position: absolute;
   background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
   z-index: 5;
   margin: 0;
   top: 40%;
@@ -311,6 +313,6 @@ div.title-cards > * {
   transform: translateY(-50%);
 }
 
-.video-container > div > button > p{
+.video-container>div>button>p {
   color: #faf5f5;
-} 
+}
