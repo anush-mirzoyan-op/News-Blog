@@ -231,8 +231,10 @@ a {
 
 
 .footer-left-part {
-  max-width: 29rem;
-  padding: 5rem 25rem 5rem 0;
+  width: 29rem;
+  min-width: 23rem;
+  padding: 5rem 0 5rem 0;
+  height: auto;
 }
 
 .footer-text {
@@ -296,7 +298,9 @@ div.title-cards>* {
 }
 
 .video-container:hover .video-bttn {
-  display: block;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
   position: absolute;
   background: none;
   color: inherit;
@@ -311,6 +315,8 @@ div.title-cards>* {
   left: 42%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  font-size: 0.75rem;
+  color: white;
 }
 
 .video-container>div>button>p {
