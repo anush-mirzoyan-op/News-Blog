@@ -191,6 +191,7 @@ a {
   background: transparent;
   height: 100%;
   margin-left: 0.8rem;
+  min-width: 10rem;
 }
 
 .get-subscribers-bttn :hover{
