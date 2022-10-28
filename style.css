@@ -183,6 +183,7 @@ a {
   width: 80vw;
   margin: auto;
   height: fit-content;
+  align-items: baseline;
 }
 
 .get-subscribers-bttn {
@@ -229,9 +230,9 @@ a {
 
 .footer-left-part {
   width: 29rem;
-  min-width: 23rem;
-  padding: 5rem 0 5rem 0;
-  height: auto;
+  min-width: 29rem;
+  padding: 1.5rem 0 1.5rem 0;
+    height: auto;
 }
 
 .footer-text {
@@ -327,7 +328,7 @@ div.title-cards>* {
   z-index: 5;
   margin: 0;
   top: 50%;
-  left: 50%;
+  left: 40%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   font-size: 0.75rem;
