@@ -194,12 +194,10 @@ a {
   min-width: 10rem;
 }
 
-.get-subscribers-bttn :hover{
-  border-radius: 555px;
+.get-subscribers-bttn:hover{
   background: black;
   color: white;
   cursor: pointer;
-
 }
 
 .get-sbrs-form {
@@ -216,8 +214,18 @@ a {
   height: 100%;
 }
 
+/* fix this, so when you focus on input it has red border*/
+input :focus{
+  border: none;
+}
+
 .get-sbrs-form input {
   border-bottom: 1px solid black;
+}
+
+.get-sbrs-form input :hover{
+  border-bottom: solid black;
+
 }
 
 .footer-right-part {
