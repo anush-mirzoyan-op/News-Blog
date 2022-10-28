@@ -39,12 +39,8 @@ li {
   height: 3rem;
 }
 
-/* :hover{
-  border-bottom: 0.09rem solid black;
-  } */
-
-.search-form :hover {
-  border-bottom: 0.09rem solid black;
+.search-form:hover {
+  border-bottom: solid black;
 }
 
 input {
@@ -191,11 +187,19 @@ a {
   height: fit-content;
 }
 
-#get-subscribers-bttn {
+.get-subscribers-bttn {
   border: 0.5px solid black;
   background: transparent;
   height: 100%;
   margin-left: 0.8rem;
+}
+
+.get-subscribers-bttn :hover{
+  border-radius: 555px;
+  background: black;
+  color: white;
+  cursor: pointer;
+
 }
 
 .get-sbrs-form {
@@ -214,11 +218,6 @@ a {
 
 .get-sbrs-form input {
   border-bottom: 1px solid black;
-}
-
-#get-subscribers-bttn {
-  height: 100%;
-  width: 10rem;
 }
 
 .footer-right-part {
@@ -265,6 +264,24 @@ div.title-cards>* {
   font-weight: 500;
 }
 
+#biggest-font-text{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  width: 100%;
+  line-height: 3rem;
+  letter-spacing: 0.25rem;
+  width: 33rem;
+}
+
+/* fix this part */
+/* 
+.content-title-and-button{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 5rem;
+} */
+
 .video-grid>div {
   overflow: hidden;
 }
@@ -284,7 +301,7 @@ div.title-cards>* {
   overflow: hidden;
 }
 
-.grid-equal-columns>div>video,
+.grid-equal-columns video,
 .grid-equal-columns>div>img {
   width: 100%;
 }
@@ -311,8 +328,8 @@ div.title-cards>* {
   outline: inherit;
   z-index: 5;
   margin: 0;
-  top: 40%;
-  left: 42%;
+  top: 50%;
+  left: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   font-size: 0.75rem;

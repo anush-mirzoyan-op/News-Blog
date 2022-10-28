@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="fonts.css">
+
 </head>
 
 <body>
@@ -94,7 +95,7 @@
       <div>
         <img
           src="https://static.wixstatic.com/media/c837a6_3a913b38947842bd902b37bcd5548a74~mv2.jpg/v1/fill/w_585,h_585,fp_0.50_0.50,q_90,enc_auto/c837a6_3a913b38947842bd902b37bcd5548a74~mv2.jpg" />
-        <p class="bD0vt9 KNiaIk" style="-webkit-line-clamp: 2">
+        <p id="biggest-font-text">
           Coastal Cities to Be Inundated by 2050
         </p>
         <div class="comment">
@@ -168,7 +169,12 @@
     </div>
 
     <div class="main-dives">
-      <div class="contenet-title">Climate Change</div>
+      <div>
+      <div class="contenet-title">
+        Climate Change
+        <button class="get-subscribers-bttn">Read More</button>
+      </div>
+    </div>
       <div class="grid-equal-columns">
         <div width="100%"><img alt="Ocean Sewage Pollution Persists" width="100%"
             src="https://static.wixstatic.com/media/c837a6_cf20a854996749d384d13fc3b50663b0~mv2.jpg/v1/fill/w_386,h_474,fp_0.50_0.50,q_90,enc_auto/c837a6_cf20a854996749d384d13fc3b50663b0~mv2.jpg">
@@ -230,26 +236,39 @@
     <div class="main-dives">
       <div class="contenet-title">Video</div>
       <div class="grid-equal-columns" width="100%">
-        <div class="video-container">
-          <button class="video-bttn"><img style="width: 30px; height: 30px"src="images/pngwing.com.png" alt="">Play Video</button>
-          <video  src="" poster="video-poster/file.jpg">
-          </video>
+        <div>
+          <div class="video-container">
+            <div  style="display: none"><iframe id="video1" width="560" height="315" src="https://www.youtube.com/embed/uT3SBzmDxGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <button class="video-bttn" onclick="playVideo()"><img style="width: 30px; height: 30px" src="images/pngwing.com.png" alt="">Play
+              Video</button>
+            <video src="https://www.youtube.com/watch?v=2PLC_cBJwk4" poster="video-poster/file.jpg" class="playing-video">
+            </video>
+          </div>
           <h3 class="paragraph-name">
             Magnificent Desert or Escalating Drought?</h3>
           <div class="comment">Landscapes are not always what they seem.
           </div>
         </div>
-        <div class="video-container">
-          <button class="video-bttn"><img style="width: 30px; height: 30px"src="images/pngwing.com.png" alt=""><p> Play Video </p></button>
-          <video  src="" poster="video-poster/file2.jpg"></video>
+        <div>
+          <div class="video-container">
+            <div  style="display: none"><iframe id="video2" width="560" height="315" src="https://www.youtube.com/embed/uT3SBzmDxGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <button class="video-bttn"><img style="width: 30px; height: 30px" src="images/pngwing.com.png" alt="">
+              <p> Play Video </p>
+            </button>
+            <video src="" poster="video-poster/file2.jpg"></video>
+          </div>
           <h3 class="paragraph-name">Vigil
             Brings to Light Environmental Crisis</h3>
           <div class="comment">Collective expressions of solidarity are the
             key to long lasting change.</div>
         </div>
-        <div class="video-container">
-          <button class="video-bttn"><img style="width: 30px; height: 30px"src="images/pngwing.com.png" alt="">Play Video</button>
-          <video  src="" poster="video-poster/file3.jpg"></video>
+        <div>
+          <div class="video-container">
+            <div  style="display: none"><iframe id="video3" width="560" height="315" src="https://www.youtube.com/embed/uT3SBzmDxGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <button class="video-bttn"><img style="width: 30px; height: 30px" src="images/pngwing.com.png" alt="">Play
+              Video</button>
+            <video src="" poster="video-poster/file3.jpg"></video>
+          </div>
           <h3 class="paragraph-name">
             Melting
             Away</h3>
@@ -261,7 +280,7 @@
 
     <footer class="footer-div">
       <div class="footer">
-        <div class="footer-left-part" >
+        <div class="footer-left-part">
           <p class="footer-text">Bring global news straight to your inbox. Sign up
             for
             our weekly newsletter.</p>
@@ -272,7 +291,7 @@
               <label>Email*</label>
               <input type="text" />
             </div>
-            <button id="get-subscribers-bttn">Get subscribers</button>
+            <button class="get-subscribers-bttn">Get subscribers</button>
           </form>
 
           <div>
@@ -295,6 +314,8 @@
   </div>
   </div>
   </div>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
