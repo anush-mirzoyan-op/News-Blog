@@ -78,6 +78,8 @@ a {
   column-gap: 3.5rem;
   width: 80vw;
   margin: auto;
+  background-color: white;
+  padding-bottom: 4rem;
 }
 
 .user-info {
@@ -117,10 +119,6 @@ a {
 
 .main-content * {
   padding: 1px;
-}
-
-.main-content {
-  background-color: white;
 }
 
 .main-dives {
