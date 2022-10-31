@@ -26,7 +26,7 @@ function playOrPauseVideo2() {
   }
 }
 
-function playOrPauseVideo2() {
+function playOrPauseVideo3() {
   if (k % 2 === 1) {
     video3.play();
     k++;
