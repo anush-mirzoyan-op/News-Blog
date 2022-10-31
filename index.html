@@ -239,15 +239,12 @@
       <div class="grid-equal-columns" width="100%">
         <div>
           <div class="video-container">
-            <div style="display: none"><iframe id="video1" width="560" height="315"
-                src="https://www.youtube.com/embed/uT3SBzmDxGk" title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe></div>
-            <button class="video-bttn" onclick="playVideo()"><img style="width: 30px; height: 30px"
-                src="images/pngwing.com.png" alt="">Play
-              Video</button>
-            <video src="https://www.youtube.com/watch?v=2PLC_cBJwk4" poster="video-poster/file.jpg"
-              class="playing-video">
+            <button class="video-bttn" onclick="playOrPauseVideo1()"><img style="width: 30px; height: 30px"
+                src="images/pngwing.com.png" alt="">
+              Play Video
+            </button>
+            <video id="video1" poster="video-poster/file.jpg" class="playing-video">
+              <source src="video/2CELLOS - Back In Black.mp4" type="video/mp4">
             </video>
           </div>
           <h3 class="paragraph-name">
@@ -257,14 +254,12 @@
         </div>
         <div>
           <div class="video-container">
-            <div style="display: none"><iframe id="video2" width="560" height="315"
-                src="https://www.youtube.com/embed/uT3SBzmDxGk" title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe></div>
-            <button class="video-bttn"><img style="width: 30px; height: 30px" src="images/pngwing.com.png" alt="">
+            <button  onclick="playOrPauseVideo2()" class="video-bttn"><img style="width: 30px; height: 30px" src="images/pngwing.com.png" alt="">
               <p> Play Video </p>
             </button>
-            <video src="" poster="video-poster/file2.jpg"></video>
+            <video id="video2" poster="video-poster/file2.jpg">
+              <source src="video/2CELLOS - They Don't Care About Us - Michael Jackson [OFFICIAL VIDEO].mp4" type="video/mp4">
+            </video>
           </div>
           <h3 class="paragraph-name">Vigil
             Brings to Light Environmental Crisis</h3>
@@ -273,13 +268,11 @@
         </div>
         <div>
           <div class="video-container">
-            <div style="display: none"><iframe id="video3" width="560" height="315"
-                src="https://www.youtube.com/embed/uT3SBzmDxGk" title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe></div>
-            <button class="video-bttn"><img style="width: 30px; height: 30px" src="images/pngwing.com.png" alt="">Play
+            <button onclick="playOrPauseVideo3()" class="video-bttn"><img style="width: 30px; height: 30px" src="images/pngwing.com.png" alt="">Play
               Video</button>
-            <video src="" poster="video-poster/file3.jpg"></video>
+            <video id="video3" poster="video-poster/file3.jpg">
+              <source src="video/2CELLOS - Wake Me Up - Avicii [OFFICIAL VIDEO].mp4" type="video/mp4" >
+            </video>
           </div>
           <h3 class="paragraph-name">
             Melting
